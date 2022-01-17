@@ -1,0 +1,151 @@
+/* BASE */
+
+body{
+    font-family: "Montserrat", sans-serif;
+    color: #A22522;
+    
+}
+
+
+h1{
+    font-size: 55px;
+    font-weight: lighter;
+}
+
+h2{
+    font-size: 28px;
+    font-weight: normal;
+}
+
+h3{
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+p{
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+
+
+/* PAGE ACCUEIL */
+.section_accueil{
+    text-align: center;
+}
+
+.accueil_MMI{
+    background-color: #FBFBF2;
+    border: 0.5mm solid #C08552;
+    width: 25%;
+}
+
+.accueil_frame{
+    background-color: #FBFBF2;
+    border: 0.5mm solid #C08552;
+    height: 200px;
+    width: 400px;
+    margin: 20px;
+}
+
+.accueil_display{
+    display: flex;
+    justify-content: center;
+} 
+    
+/* .accueil_web{
+    background-color: #FBFBF2;
+    border: 0.5mm solid #C08552;
+    height: 200px;
+    width: 400px;
+    margin: 20px;
+}
+
+.accueil_graphisme{
+    background-color: #FBFBF2;
+    border: 0.5mm solid #C08552;
+    height: 200px;
+    width: 400px;
+    margin: 20px;
+}
+
+.accueil_jeuxvideo{
+    background-color: #FBFBF2;
+    border: 0.5mm solid #C08552;
+    height: 200px;
+    width: 400px;
+    margin: 20px;
+}
+
+.accueil_photographie{
+    background-color: #FBFBF2;
+    border: 0.5mm solid #C08552;
+    height: 200px;
+    width: 400px;
+    margin: 20px;
+}
+
+.accueil_3d{
+    background-color: #FBFBF2;
+    border: 0.5mm solid #C08552;
+    height: 200px;
+    width: 400px;
+    margin: 20px;
+}
+
+.accueil_audiovisuel{
+    background-color: #FBFBF2;
+    border: 0.5mm solid #C08552;
+    height: 200px;
+    width: 400px;
+    margin: 20px;
+}
+
+.accueil_musique{
+    background-color: #FBFBF2;
+    border: 0.5mm solid #C08552;
+    height: 200px;
+    width: 400px;
+    margin: 20px;
+}
+*/
+
+/* .accueil_top{
+    display: flex;
+    justify-content: center;
+}
+
+.accueil_middle{
+    display: flex;
+    justify-content: center;
+}
+
+.accueil_bottom{
+    display: flex;
+    justify-content: center;
+} */
+
+
+
+/* frame{
+    background-color: #FBFBF2;
+    border: 0.5mm solid #C08552;
+    height: 200px;
+    width: 400px;
+    margin: 20px;
+} */
+
+.redim {
+    overflow: hidden;
+    /* margin-top: -10px; */
+    border: 1mm solid #C08552;
+    width : 600px; max-height : 350px;
+    background-size: contain;
+}
+
+
+.display_frame{
+    display: flex;
+    justify-content: space-evenly;
+}
+
