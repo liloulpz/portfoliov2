@@ -14,6 +14,76 @@
     <title>[WEB] Portfolio Lilou Lopez</title>
 </head>
 <body>
+    <section class="header-all">
 
+        <header>
+            <div class="container">
+                <nav class="nav">
+                    <img href="index.html" src="/assets/images/icones/LogoLilouLopez.svg" alt="logo Lilou Lopez" class="logo">
+                    <ul class="nav-list">
+                        <li>
+                            <a href="index.html" class="nav-link">ACCUEIL</a>
+                        </li>
+                        <li>
+                            <a href="apropos.html" class="nav-link">À PROPOS</a>
+                        </li>
+                        <li>
+                            <a href="contacts.html" class="nav-link">CONTACTS</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <script>
+                window.addEventListener('scroll', function () {
+                    let header = document.querySelector('.header-all');
+                    let windowPosition = window.scrollY > 0;
+                    header.classList.toggle('scrolling-active', windowPosition);
+                })
+        </script>
+    </section>
+
+
+    <section class="section_align_center">
+        <h1 class="title">WEB</h1>
+    <div class="display_frame">
+        <div class="frame portfolio">
+            <h2>[CRÉATION DE PORFOLIO]</h2>
+            <img class="redim" src="assets/images/rubriques/mockupportfolio.png" alt="miniature portfolio">
+           
+        </div>
+    
+        <div class="frame web_agendasetting">
+            <h2>[REFONTE "LE PETIT PLATEAU"]</h2>
+            <img class="redim" src="assets/images/rubriques/mockuplepetitplateau.png" alt="miniture Le petit plateau">
+        </div>
+    </div>
+    </section>
 
 </body>
+
+<footer>
+    <div class="footer_liens">
+        <a href="contacts.html">
+            <img src="assets/images/icones/mail.svg" alt="icone mail">
+        </a>
+        <a href="https://github.com/liloulpz">
+            <img src="assets/images/icones/github.svg" alt="icone github">
+        </a>
+        <a href="https://www.linkedin.com/in/lilou-lopez-20b131222/">
+                <img src="assets/images/icones/linkedin.svg" alt="icone linkedin">
+        </a>
+        <a href="https://www.instagram.com/lilou_lopez_/">
+                <img src="assets/images/icones/instagram.svg" alt="icone instagram">
+        </a>
+        <a href="https://www.youtube.com/c/LILOULOPEZ/">
+                <img src="assets/images/icones/youtube.svg" alt="icone youtube">
+        </a>
+    </div>
+        
+
+        <p>© 2021 Lilou LOPEZ. Tous Droits Réservés.</p>
+</footer>
+
+</html>
