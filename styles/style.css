@@ -1,15 +1,84 @@
 /* BASE */
 
+
 body{
     font-family: "Montserrat", sans-serif;
     color: #A22522;
-    margin-top: 200px;
+    /* margin-top: 200px; */
+    margin: 200px 0px 0px 0px;
+    padding: 0px;
     /* margin-bottom: 200px; */
+    /* margin-left: 60px;
+    margin-right: 60px; */
 }
+
+/* .table_matieres{
+    padding-top: 500px;
+} */
+
+.flux{
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.grid-item {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.grid-item2 {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 20px;
+}
+
+.grid-item3 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.grid-item-button {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.titleprincipal{
+    padding-bottom: 50px;
+}
+
+
+/* .arrow{
+    margin-bottom: 100px;
+} */
+
 
 
 a{
     text-decoration: none;
+    color: #A22522;
 }
 
 ul {
@@ -48,13 +117,17 @@ h3{
 }
 
 p{
-    font-size: 14px;
+    font-size: 20px;
     font-weight: lighter;
 }
 
 
 
 /* PAGE ACCUEIL */
+.title{
+    text-align: center;
+}
+
 .section_align_center{
     text-align: center;
 }
@@ -63,6 +136,8 @@ p{
     background-color: #FBFBF2;
     border: 0.5mm solid #C08552;
     width: 25%;
+    margin: 0 auto 100px auto;
+    
 }
 
 .accueil_frame{
@@ -82,78 +157,9 @@ p{
     color: #A22522;
 }
     
-/* .accueil_web{
-    background-color: #FBFBF2;
-    border: 0.5mm solid #C08552;
-    height: 200px;
-    width: 400px;
-    margin: 20px;
+.top_accueil{
+    margin-top: 200px;
 }
-
-.accueil_graphisme{
-    background-color: #FBFBF2;
-    border: 0.5mm solid #C08552;
-    height: 200px;
-    width: 400px;
-    margin: 20px;
-}
-
-.accueil_jeuxvideo{
-    background-color: #FBFBF2;
-    border: 0.5mm solid #C08552;
-    height: 200px;
-    width: 400px;
-    margin: 20px;
-}
-
-.accueil_photographie{
-    background-color: #FBFBF2;
-    border: 0.5mm solid #C08552;
-    height: 200px;
-    width: 400px;
-    margin: 20px;
-}
-
-.accueil_3d{
-    background-color: #FBFBF2;
-    border: 0.5mm solid #C08552;
-    height: 200px;
-    width: 400px;
-    margin: 20px;
-}
-
-.accueil_audiovisuel{
-    background-color: #FBFBF2;
-    border: 0.5mm solid #C08552;
-    height: 200px;
-    width: 400px;
-    margin: 20px;
-}
-
-.accueil_musique{
-    background-color: #FBFBF2;
-    border: 0.5mm solid #C08552;
-    height: 200px;
-    width: 400px;
-    margin: 20px;
-}
-*/
-
-/* .accueil_top{
-    display: flex;
-    justify-content: center;
-}
-
-.accueil_middle{
-    display: flex;
-    justify-content: center;
-}
-
-.accueil_bottom{
-    display: flex;
-    justify-content: center;
-} */
-
 
 
 /* frame{
@@ -165,11 +171,15 @@ p{
 } */
 
 .redim {
-    overflow: hidden;
+    /* overflow: hidden; */
     /* margin-top: -10px; */
     border: 1mm solid #C08552;
-    width : 600px; max-height : 350px;
+    width : 600px; height : 350px;
     background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    background-position: center;
 }
 
 
@@ -198,7 +208,7 @@ p{
 .contacts_frame{
     background-color: #FBFBF2;
     border: 0.5mm solid #C08552;
-    height: 120px;
+    /* height: 1fr; */
     width: 250px;
     padding: 10px;
     margin: 20px;
@@ -208,7 +218,7 @@ p{
 .contacts_frame_mail{
     background-color: #FBFBF2;
     border: 0.5mm solid #C08552;
-    height: 150px;
+    /* height: 1fr; */
     width: 400px;
     padding: 10px;
     margin: 20px;
@@ -216,6 +226,15 @@ p{
 }
 
 
+
+button{
+    background-color: #FBFBF2;
+    border: 0.5mm solid #C08552;
+    width: 200px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center; 
+}
 
 
 
@@ -250,13 +269,13 @@ p{
 
     .container{
         width: 100%;
-        max-width: 120rem;
+        max-width:120rem;
         margin: 0 auto;
         padding: 0 1.5rem;
     }
 
     .nav{
-        width: 85%;
+        width: 95%;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -353,3 +372,123 @@ p{
     footer p {
         padding: 20px;
     }
+
+
+
+
+
+
+.mygallery{
+    position: absolute;
+    top: 70px ;
+
+    display: flex;
+    display: -ms-flexbox;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column{
+    flex : 33.33%;
+    -ms-flex: 33.33%;
+    max-width: 33.33%;
+}
+
+.column img{
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* IMAGES */
+
+/* WEB ET GRAPHISME*/
+.portfolioimage{
+    background-image: url("/assets/images/rubriques/mockupportfolio.png"); 
+}
+
+.LPPimage{
+    background-image: url("/assets/images/rubriques/mockuplepetitplateau.png"); 
+}
+.ASimage{
+    background-image: url("/assets/images/rubriques/miniature\ agendasett.png");
+}
+
+/* JEUX VIDEO ET PHOTO ET 3D*/
+.IMimage{
+    background-image: url("/assets/images/rubriques/ivysmemorycover.jpg");
+}
+
+.Iimage{
+    background-image: url("/assets/images/rubriques/insomniascratch.png");
+}
+
+.mmibdximage{
+    background-image: url("/assets/images/rubriques/photochloe.jpg");
+}
+
+.photoinstaimage{
+    background-image: url("/assets/images/rubriques/photosinsta.png");
+}
+
+.BGPimage{
+    background-image: url("/assets/images/rubriques/blenderminiature.png");
+}
+
+/* AUDIOVISUEL ET MUSIQUE */
+    
+.JTTOUimage{
+    background-image: url("/assets/images/rubriques/JTTOUminiature.jpg"); 
+}
+
+.IJDTMimage{
+    background-image: url("/assets/images/rubriques/IJDTMjflmqmp.jpg");
+}
+
+.JRMEimage{
+    background-image: url("/assets/images/rubriques/JRMExminiature.jpg");
+}
+
+.INimage{
+    background-image: url("/assets/images/rubriques/INminiature.jpg");
+}
+
+.IBTFYimage{
+    background-image: url("/assets/images/rubriques/IBTFyouminiature.jpg");
+}
+
+.coverInstaimage{
+    background-image: url("/assets/images/rubriques/coversinsta.png");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

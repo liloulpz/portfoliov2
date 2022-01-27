@@ -19,7 +19,7 @@
         <header>
             <div class="container">
                 <nav class="nav">
-                    <img href="index.html" src="/assets/images/icones/LogoLilouLopez.svg" alt="logo Lilou Lopez" class="logo">
+                    <a href="index.html"><img href="index.html" src="/assets/images/icones/LogoLilouLopez.svg" alt="logo Lilou Lopez" class="logo"></a>
                     <ul class="nav-list">
                         <li>
                             <a href="index.html" class="nav-link">ACCUEIL</a>
@@ -45,9 +45,14 @@
     </section>
 
 
-    <article>
-        <img src="assets/images/rubriques/LilouLopez_AtelierPhoto_PortraitPerso.jpg" alt ="portrait Lilou Lopez" class="image-ronde">
-    <h1>Qui suis-je ?</h1>
+<article class="flux">
+    <div class="grid-container">
+        <div class="grid-item3">
+            <img src="assets/images/rubriques/LilouLopez_AtelierPhoto_PortraitPerso.jpg" alt ="portrait Lilou Lopez" class="image-ronde">
+        </div>
+
+        <div class="grid-item2">
+            <h1>Qui suis-je ?</h1>
     <p>
         Je m’appelle Lilou Lopez j’ai 19 ans et je suis actuellement en <br>
         1ere année de BUT Métiers du Multimédia et de l’Internet (MMI) <br>
@@ -55,50 +60,61 @@
     </p>
     <p>
         Passionné par le multimédia, j'ai décidé d'intégrer cette formation pour enrichir mes connaissances dans ce domaine. <br>
-        Ce BUT me permet d'obtenir de nombreuses compétences dans le domaine <br>
-        du developement web, du web design, de l'audiovisuels , du graphisme, ou encore de la photographie.
+        Ce BUT me permet d'obtenir de nombreuses compétences dans le domaine du developement web, du web design, de l'audiovisuels , 
+        du graphisme, ou encore de la photographie.
     </p>
     <p>
-        De manière générale je m'intéresse à tout ce que l’on peu expériementer et faire en BUT MMI, <br>
+        De manière générale je m'intéresse à tout ce que l’on peu expériementer et faire en BUT MMI,
         mais je souhaiterais m’interesser de plus près au developpement web.
     </p>
-    <p>
-        <strong>
-            Je cherche donc un stage dans le développement web : <br>
-           - 4 semaines au minimum <br>
-           - fin Mai / mois de Juin
-        </strong>
-    </p>
-    <button>
-        [VOIR MON CV]
-    </button>
-    <button>
-        <a href="contacts.html">[ME CONTACTER]</a>
-    </button>
-    </article>
+        </div>
+        <div class="grid-item2">
+            <p>
+                <strong>
+                    Je cherche un stage dans le développement web : <br>
+                   - 4 semaines au minimum <br>
+                   - fin Mai / mois de Juin
+                </strong>
+            </p>
+        </div>
+        <div class="grid-item-button">
+            <button>
+                [VOIR MON CV]
+            </button>
+            <button>
+                <a href="contacts.html">[ME CONTACTER]</a>
+            </button>
+        </div>
+    </div> 
 
     <section class="j_utilise">
         <h2>J'utilise</h2>
-        <div class="suite_adobe">
-            <img src="assets/images/icones/adobepremiere.svg" alt="icone adobe premiere pro">
-            <img src="assets/images/icones/adobeillustrator.svg" alt="icone adobe illustrator">
-            <img src="assets/images/icones/aftereffects.svg" alt="icone adobe after effects">
-            <img src="assets/images/icones/adobelightroom.svg" alt="icone adobe lightroom">
-            <img src="assets/images/icones/adobephotoshop.svg" alt="icone adobe photoshop">
+        <div class="grid-container">
+            <div class="grid-item2">
+                <div class="suite_adobe">
+                    <img src="assets/images/icones/adobepremiere.svg" alt="icone adobe premiere pro">
+                    <img src="assets/images/icones/adobeillustrator.svg" alt="icone adobe illustrator">
+                    <img src="assets/images/icones/aftereffects.svg" alt="icone adobe after effects">
+                    <img src="assets/images/icones/adobelightroom.svg" alt="icone adobe lightroom">
+                    <img src="assets/images/icones/adobephotoshop.svg" alt="icone adobe photoshop">
+                </div>
+                <div class="grid-item2">
+                    <div class="suite_code">
+                        <img src="assets/images/icones/vscode.svg" alt="icone vscode">
+                        <img src="assets/images/icones/html.svg" alt="icone html">
+                        <img src="assets/images/icones/css.svg" alt="icone css">
+                    </div>
+                </div>                
+            </div>
+            <div class="suite_others">
+                <img src="assets/images/icones/figma.svg" alt="icone figma">
+                <img src="assets/images/icones/blender.svg" alt="icone blender">
+                <img src="assets/images/icones/unity.svg" alt="icone unity">
+                <img src="assets/images/icones/davinciresolve.svg" alt="icone da vinci resolve">
+            </div>
         </div>
-
-        <div class="suite_others">
-            <img src="assets/images/icones/figma.svg" alt="icone figma">
-            <img src="assets/images/icones/blender.svg" alt="icone blender">
-            <img src="assets/images/icones/unity.svg" alt="icone unity">
-            <img src="assets/images/icones/davinciresolve.svg" alt="icone da vinci resolve">
-        </div>
-
-        <div class="suite_code">
-            <img src="assets/images/icones/vscode.svg" alt="icone vscode">
-            <img src="assets/images/icones/html.svg" alt="icone html">
-            <img src="assets/images/icones/css.svg" alt="icone css">
-        </div>
+        
+        
     </section>
 
     <section class="certifications">
@@ -113,6 +129,8 @@
             Certification de compétences de citoyen de sécurité civile - PSC1
         </div>
     </section>
+</article>
+    
    
 </body>
 
