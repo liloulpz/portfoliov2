@@ -22,9 +22,10 @@ body{
     margin-right: 60px; */
 }
 
-/* .table_matieres{
-    padding-top: 500px;
-} */
+.table_matieres{
+    padding-top: 2px;
+
+}
 
 .flux{
     margin-right: 60px;
@@ -174,7 +175,7 @@ p{
 }
     
 .top_accueil{
-    margin-top: 200px;
+    margin-top: 175px;
 }
 
 
