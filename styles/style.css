@@ -199,9 +199,21 @@ p{
     background-position: center;
 }
 
+.nonebdr{
+    border: 1mm solid #C08552;
+    width : 600px; height : 350px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    background-position: center;
+}
+
 .redim:hover {
     border: 1mm solid #A22522;
 }
+
+
 
 
 
@@ -310,7 +322,7 @@ button a:hover{
 
     .container{
         width: 100%;
-        height: 150px;
+        height: 120px;
         max-width:120rem;
         margin: 0 auto;
         padding: 0 1.5rem;
@@ -339,7 +351,7 @@ button a:hover{
 
     .nav .logo{
         /* opacity: 0; */
-        width: 130px;
+        width: 100px;
         margin-right: 60px;
         z-index: 6;
     }
@@ -416,6 +428,7 @@ button a:hover{
         padding-top: 20px;
         padding-bottom: 20px;
         margin: 0;
+        font-size: small;
     }
 
 
