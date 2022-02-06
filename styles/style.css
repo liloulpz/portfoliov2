@@ -410,7 +410,8 @@ button a:hover{
         left: 0;
         margin: 100px 0px 0px 0px;
         padding: 0px;
-        
+        width: 100%;
+        max-width: 120rem;;
         text-align: center;
     }
 
@@ -429,6 +430,10 @@ button a:hover{
         padding-bottom: 20px;
         margin: 0;
         font-size: small;
+    }
+
+    footer div a img {
+        width: 35px;
     }
 
 
