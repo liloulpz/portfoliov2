@@ -1,0 +1,40 @@
+footer{
+    background-color: var(--or-color);
+    top: 0;
+    left: 0;
+    bottom: 0px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    /* max-width: 120rem; */
+    text-align: center;
+ 
+    
+}
+
+.footer_liens{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+footer div a {
+    padding: 20px 20px 0 20px;
+}
+
+footer p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+    font-size: small;
+}
+
+footer div a img {
+    width: 35px;
+}
+
+
+.body-footer {
+    height: fit-content;
+}

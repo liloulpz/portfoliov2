@@ -1,0 +1,7 @@
+.burger-menu-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+}

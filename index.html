@@ -6,76 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap"
     rel="stylesheet">
-
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/burger-menu.css">
     <link rel="icon" href="assets/images/icones/LogoLilouLopez.ico" type="image/ico">
 
     
     <title>Portfolio Lilou Lopez</title>
 </head>
 <body>
-
-    <section class="header-all">
-
-        <header>
-            <div class="container">
-                <nav class="nav">
-                    <a href="index.html"><img href="index.html" src="/assets/images/icones/LogoLilouLopez.svg" alt="logo Lilou Lopez" class="logo"></a>
-                    <ul class="nav-list">
-                        <li>
-                            <a href="index.html" class="nav-link">ACCUEIL</a>
-                        </li>
-                        <li>
-                            <a href="apropos.html" class="nav-link">À PROPOS</a>
-                        </li>
-                        <li>
-                            <a href="contacts.html" class="nav-link">CONTACTS</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        
-        <script>
-                window.addEventListener('scroll', function () {
-                    let header = document.querySelector('.header-all');
-                    let windowPosition = window.scrollY > 0;
-                    header.classList.toggle('scrolling-active', windowPosition);
-                })
-        </script>
-    </section>
+    <!-- HEADER -->
+    <iframe class="iframe-header" src="html/0commons/header.html"></iframe>
+    <menu id="menu">
+        <ul class="burger-menu-list">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="html/apropos.html">À propos</a></li>
+            <li><a href="html/contacts.html">Contacts</a></li>
+        </ul>
+    </menu>
+    <div class="header-burger">
+        <a href="../../index.html"><img src="../../assets/images/icones/LogoLilouLopez.svg" alt="logo Lilou Lopez" class="logo"></a>
+        <button id="burger-button" class="burger-button" onclick="openMenu();">
+            <div class="burger-button-line"></div>
+            <div class="burger-button-line"></div>
+            <div class="burger-button-line"></div>
+        </button>
+        <button id="close-button" class="close-button" onclick="closeMenu();">
+            <div class="close-button-line1"></div>
+            <div class="close-button-line2"></div>
+        </button>
+    </div>
+    <!-- FIN HEADER -->
 
 
-
-
-
-
-
-
-    <section class="section_align_center">
+    <section id="top" class="section_align_center">
         <h1 class="titleprincipal"><i>Lilou Lopez</i></h1>
-        <h2><i>[Creative Developer Junior]</i></h2>
-        <h3><strong>Stage de 5 semaines dans le développement web sur la période 30 mai - 1 juillet.</strong></h3>
-        <h3>[PORTFOLIO 2022]</h3>
-
-        <div class="accueil_MMI">
-            <h2>1ERE ANNÉE BUT MMI</h2>
-        </div>
+        <h2><i>[Creative Developer Junior]</i></h2><br><br>
+        <!-- <h3><strong>Stage de 5 semaines dans le développement web sur la période 30 mai - 1 juillet.</strong></h3><br> -->
+        <h3>[PORTFOLIO 2022]</h3><br>
+        <h4>[1ERE ANNÉE BUT MMI]</h4><br>
         
-        <a href="#scroll" >
+        
+        <a href="#matieres" >
             <img class="arrow" src="assets/images/icones/arrow.svg" alt="fleche">
         </a>
+    </section>
         
-        
-    <section class="table_matieres" id="scroll">
-        <div id="matieres" class="accueil_display top_accueil">
-            <a href="web.html">
+    <section id="matieres" class="section_align_center" >
+        <div class="accueil_display top_accueil">
+            <a href="/html/web.html">
             <div class="accueil_web accueil_frame">
                 <h3>[WEB]</h3>
                 <img src="assets/images/icones/webicon.svg" alt="icone web">
             </div>
             </a>
-            <a href="graphisme.html">
+            <a href="/html/graphisme.html">
                 <div class="accueil_graphisme accueil_frame">
                     <h3>[GRAPHISME]</h3>
                     <img src="assets/images/icones/graphismeicon.svg" alt="icone graphisme">
@@ -84,19 +68,19 @@
         </div>
             
         <div class="accueil_display">
-            <a href="jeuxvideo.html">
+            <a href="/html/jeuxvideo.html">
                 <div class="accueil_jeuxvideo accueil_frame">
                     <h3>[JEUX VIDÉO]</h3>
                     <img src="assets/images/icones/jeuxicon.svg" alt="icone jeux video">
                 </div>
             </a>
-            <a href="photographie.html">
+            <a href="/html/photographie.html">
                 <div class="accueil_photographie accueil_frame">
                     <h3>[PHOTOGRAPHIE]</h3>
                     <img src="assets/images/icones/photoicon.svg" alt="icone photographie">
                 </div>
             </a>
-            <a href="3d.html">
+            <a href="/html/3d.html">
                 <div class="accueil_3d accueil_frame">
                     <h3>[3D]</h3>
                     <img src="assets/images/icones/3dicon.svg" alt="icone 3D">
@@ -106,24 +90,20 @@
         </div>
             
         <div class="accueil_display">
-            <a href="audiovisuel.html">
+            <a href="/html/audiovisuel.html">
                 <div class="accueil_audiovisuel accueil_frame">
                     <h3>[AUDIOVISUEL]</h3>
                     <img src="assets/images/icones/audiovisuelicon.svg" alt="icone audiovisuel">
                 </div>
             </a>
-            <a href="musique.html">
+            <a href="/html/musique.html">
                 <div class="accueil_musique accueil_frame">
                     <h3>[MUSIQUE]</h3>
                     <img src="assets/images/icones/musiqueicon.svg" alt="icone musique">
                 </div>
             </a>
-        </div>
-        
-    </section>          
-    
+        </div>    
     </section>
-</body>
 
 
 
@@ -135,8 +115,8 @@
 </div> -->
 
 
-
-<footer>
+<iframe class="iframe-footer"  src="html/0commons/footer.html"></iframe>
+<!-- <footer>
     <div class="footer_liens">
         <a href="contacts.html" target="blank">
             <img src="assets/images/icones/mail.svg" alt="icone mail">
@@ -157,6 +137,10 @@
         
 
         <p>© Lilou LOPEZ. Tous Droits Réservés.</p>
-</footer>
+</footer> -->
+
+<script src="js/menu.js"></script>
+
+</body>
 
 </html>

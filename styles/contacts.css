@@ -1,0 +1,44 @@
+
+.contacts_frame{
+    background-color: var(--light-color);
+    border: 0.5mm solid var(--or-color);
+    /* height: 1fr; */
+    width: 250px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+}
+
+.contacts_frame_mail{
+    background-color: var(--light-color);
+    border: 0.5mm solid var(--or-color);
+    /* height: 1fr; */
+    width: 400px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+}
+
+/* MEDIA SCREEN */
+
+
+@media screen and (max-device-width: 615px) {
+    /* TABLETTE */
+    
+}
+
+
+@media screen and (max-device-width: 415px) {
+    /* TELEPHONE */
+    .contacts_frame_mail{
+        width: 350px;
+        height: 250px;
+    }
+    .contacts_frame{
+        width: 300px;
+        height: 200px;
+    }
+    
+
+}
+/* FIN MEDIA SCREEN */
