@@ -155,6 +155,7 @@ li a:visited{
 
 /* CONTAINER */
 
+
 .container-2{
     display: flex;
     flex-direction: column;
@@ -197,6 +198,8 @@ li a:visited{
     width: 100%;
     padding-bottom: 15px ;
 }
+
+
 
 /* FIN CONTAINER */
 
@@ -585,6 +588,14 @@ nav .logo{
 }
 .startupolyimage{
     background-image: url("/assets/images/rubriques/startupoly.png");
+}
+
+.MMIDECOUimage{
+    background-image: url("/assets/images/rubriques/MMI_dMiniature.jpg");
+}
+
+.SCULPBACKimage{
+    background-image: url("/assets/images/rubriques/mockupSculpeauxMiniature.jpg");
 }
 
 
