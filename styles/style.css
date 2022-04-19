@@ -542,6 +542,10 @@ nav .logo{
     background-image: url("/assets/images/rubriques/miniature\ agendasett.png");
 }
 
+.BUDimage{
+    background-image: url("/assets/images/rubriques/BUDappminiature.jpg");
+}
+
 /* JEUX VIDEO ET PHOTO ET 3D*/
 .IMimage{
     background-image: url("/assets/images/rubriques/ivysmemorycover.jpg");
