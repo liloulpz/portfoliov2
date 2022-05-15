@@ -546,6 +546,9 @@ nav .logo{
     background-image: url("/assets/images/rubriques/BUDappminiature.jpg");
 }
 
+.HUDDLEimage{
+    background-image: url("/assets/images/rubriques/huddle-illustration-mockup.jpg");
+}
 /* JEUX VIDEO ET PHOTO ET 3D*/
 .IMimage{
     background-image: url("/assets/images/rubriques/ivysmemorycover.jpg");
