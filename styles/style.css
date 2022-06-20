@@ -530,6 +530,19 @@ nav .logo{
 
 /* IMAGES */
 
+/* COMMUNICATION */
+.workshopimage{
+    background-image: url("/assets/images/rubriques/24h.png"); 
+}
+
+.twiningsimage{
+    background-image: url("/assets/images/rubriques/twinings.png"); 
+}
+
+.CROWDimage{
+    background-image: url("/assets/images/rubriques/minuitsurterre.png"); 
+}
+
 /* WEB ET GRAPHISME*/
 .portfolioimage{
     background-image: url("/assets/images/rubriques/mockupportfolio.png"); 
